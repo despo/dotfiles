@@ -1,0 +1,18 @@
+[user]
+  name = Despo Pentara
+  email = despo@despo.me
+
+[alias]
+  ci = commit
+  a = add
+  d = diff
+  st = status
+  dc = diff --cached
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+
+[apply]
+  whitespace = fix
+
+[color]
+  diff = auto
+  status = auto

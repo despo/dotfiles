@@ -1,0 +1,8 @@
+alias printme='echo $1'
+alias back='cd "$OLDPWD";pwd '
+
+alias b="bundle exec"
+alias rspec='b rspec -cfd'
+alias cucumber="b cucumber"
+alias cap='nocorrect cap'
+alias cp='nocorrect cp'
