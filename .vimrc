@@ -1,14 +1,17 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'tpope/vim-rails.git'
-Bundle 'tpope/vim-fugitive'
-Bundle 'altercation/vim-colors-solarized.git'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails.git'
+Plugin 'tpope/vim-fugitive'
+Plugin 'altercation/vim-colors-solarized.git'
+Plugin 'elixir-editors/vim-elixir'
+
+call vundle#end()
 
 filetype plugin indent on
 
